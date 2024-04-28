@@ -4,8 +4,8 @@
 This project focuses on the recognition of handwritten characters using machine learning and deep learning algorithms. It utilizes the EMNIST dataset, which contains handwritten digits [0-9] and letters [A-Za-z]. The goal is to accurately classify and categorize these characters.
 
 ## Dataset Used
-The EMNIST dataset, a widely used benchmark dataset for character recognition, is used in this project. It consists of grayscale images of handwritten characters, along with corresponding labels indicating the character class.
-[Dataset](https://www.kaggle.com/datasets/crawford/emnist)
+The EMNIST dataset, a widely used benchmark dataset for character recognition, is used in this project. It consists of grayscale images of handwritten characters, along with corresponding labels indicating the character class. <br>
+Lien: [Dataset](https://www.kaggle.com/datasets/crawford/emnist)
 
 ## Requirements
 1. Python
