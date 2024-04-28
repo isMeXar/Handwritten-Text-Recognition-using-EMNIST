@@ -5,7 +5,7 @@ This project focuses on the recognition of handwritten characters using machine 
 
 ## Dataset Used
 The EMNIST dataset, a widely used benchmark dataset for character recognition, is used in this project. It consists of grayscale images of handwritten characters, along with corresponding labels indicating the character class.
-<a src="https://www.kaggle.com/datasets/crawford/emnist" alt="EMNIST dataset">Dataset</a>
+[Dataset](https://www.kaggle.com/datasets/crawford/emnist)
 
 ## Requirements
 1. Python
