@@ -44,7 +44,11 @@ This section demonstrates the implementation of a Convolutional Neural Network (
 
 ### Model Compilation
 The CNN model is compiled with the categorical cross-entropy loss function, the Adam optimizer, and accuracy as the evaluation metric. The Adam optimizer efficiently adapts the learning rate for faster convergence.
-
+```python
+cnn_model.compile(optimizer=tf.keras.optimizers.Adam(0.001),
+              loss="categorical_crossentropy",
+              metrics=["accuracy"])
+```
 
 ### Callbacks
 Three callbacks are employed to improve model performance and prevent overfitting during training:
