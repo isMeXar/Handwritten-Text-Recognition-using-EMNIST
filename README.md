@@ -82,7 +82,7 @@ cnn_model = Sequential([
 The CNN model performed really well, here is the result:
 
 ```python
-Best accuracy: 0.8904 # We have an 89,01% accurate model
+Best accuracy: 0.8904
 Best loss value: 0.2377
 ```
 <img src="img/CNN evaluation.png" alt="Header Image" style="width:100%;">
@@ -90,11 +90,12 @@ Best loss value: 0.2377
 
 The CNN model achieved an accuracy of approximately 89.04% on the validation set after training for 9 epochs. The early stopping callback prevented further training as the validation loss reached a limit, ensuring the model's optimal performance and avoiding overfitting.
 
+
 ## Installation
 
 1. Clone this repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/isMeXar/Handwritten-Text-Recognition-using-EMNIST.git
 ```
 
 2. Create and activate a virtual environment:
@@ -103,10 +104,9 @@ python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 ```
 
-3. Install the required packages:
-```bash
-pip install -r requirements.txt
-```
+3. Install the required packages
+
+
 
 ## Usage
 
@@ -120,6 +120,7 @@ jupyter notebook
    - `cnn_model.ipynb`: CNN model implementation and training
    - `machine_learning_models.ipynb`: Traditional ML approaches
    - `cross_val.ipynb`: Model evaluation and cross-validation
+
 
 
 ## Conclusion
